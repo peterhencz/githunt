@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 .top-nav {
   background: #fff;
   border-bottom: 1px solid #e8e8e8;
@@ -37,8 +39,23 @@
   box-shadow: none;
 }
 
+.external-btns {
+  display: flex;
+  align-items: center;
+}
+
 .btn-tweet {
   background: #01aced;
   border-color: #01aced;
 }
 
+.btn-dark-toggle:after {
+  width: 100%;
+  height: 100%;
+  font-family: "Material Icons";
+  font-size: 1em;
+  content: "brightness_2";
+  color: rgb(243, 205, 78);
+  position: relative;
+  top: 1px;
+}
